@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SocialBook</title>
+ 
+  <link rel="stylesheet" href="style.css" />
+
+
+</head>
+
+<body>
+  <!-- <-----------------Nav Bar ------------------>
+  <nav>
+    <div class="nav-left">
+      <img src="./images/images/logo.png" alt="logo" class="logo" />
+      <ul>
+        <li>
+          <img src="./images/images/notification.png" alt="notification" />
+        </li>
+        <li><img src="./images/images/inbox.png" alt="notification" /></li>
+        <li><img src="./images/images/video.png" alt="notification" /></li>
+      </ul>
+    </div>
+    <div class="nav-right">
+      <div class="search-box">
+        <img src="./images/images/search.png" alt="" />
+        <input type="text" placeholder="Search" />
+      </div>
+      <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+        <img src="./images/images/profile-pic.png" alt="" />
+      </div>
+    </div>
+
+    <!-- <---------------------------Drop Down List ------------------------ -->
+    <div class="settings-menu">
+
+      <div id="dark-btn">
+        <span>
+
+        </span>
+      </div>
+      <div class="settings-menu-inner">
+
+        <div class="user-profile">
+          <img src="./images/images/profile-pic.png" alt="profile-pic">
+          <div>
+            <p>John</p>
+            <a href="#"> See Your Profile</a>
+          </div>
+          <div class="user-profile">
+            <img src="./images/images/feedback.png" alt="profile-pic">
+            <div>
+              <p>Give FeedBack</p>
+              <a href="#">Help us to improve more</a>
+            </div>
+
+          </div>
+
+
+        </div>
+  </nav>
+
+  <!-- <------------------------Main --------------------------->
+  <div class="container">
+    <!--------- Left Side Bar -------------->
+    <div class="left-side-bar">
+      <div class="imp-links">
+        <a href="#"><img src="./images/images/news.png" alt="news-image" />Latest
+          News</a>
+        <a href="#"><img src="./images/images/friends.png" alt="news-image" />Friends</a>
+        <a href="#"><img src="./images/images/group.png" alt="news-image" />Groups</a>
+        <a href="#"><img src="./images/images/marketplace.png" alt="news-image" />Market Place</a>
+        <a href="#"><img src="./images/images/watch.png" alt="news-image" />Watch</a>
+        <a href="#">See More</a>
+      </div>
+      <div class="shortcut-links">
+        <p>Your Shortcuts</p>
+        <a href="#"><img src="./images/images/shortcut-1.png" alt="shortcut-image" />Web Developers</a>
+        <a href="#"><img src="./images/images/shortcut-2.png" alt="shortcut-image" />Web Design Course</a>
+        <a href="#"><img src="./images/images/shortcut-3.png" alt="shortcut-image" />Full Stack Development</a>
+        <a href="#"><img src="./images/images/shortcut-4.png" alt="shortcut-image" />Website Experts</a>
+      </div>
+    </div>
+
+    <!----------- Main Bar ------------>
+    <div class="main-content">
+      <div class="story-galary">
+        <div class="story story1">
+          <img src="./images/images/upload.png" alt="upload-image" />
+          <p>Post Story</p>
+        </div>
+        <div class="story story2">
+          <img src="./images/images/member-1.png" alt="upload-image" />
+          <p>Alison</p>
+        </div>
+        <div class="story story3">
+          <img src="./images/images/member-2.png" alt="upload-image" />
+          <p>Jackson</p>
+        </div>
+        <div class="story story4">
+          <img src="./images/images/member-3.png" alt="upload-image" />
+          <p>Peter</p>
+        </div>
+        <div class="story story5">
+          <img src="./images/images/member-4.png" alt="upload-image" />
+          <p>Sam</p>
+        </div>
+      </div>
+
+      <div class="write-post-container">
+        <div class="user-profile">
+          <img src="./images/images/profile-pic.png" alt="profile-pic">
+          <div>
+            <p>John</p>
+            <small>Public</small>
+          </div>
+        </div>
+
+        <div class="post-input-conotainer">
+          <textarea rows="3" placeholder="What's on your Mind"></textarea>
+          <div class="add-post-links">
+            <a href="#"><img src="./images/images/live-video.png" alt="video-img">Live Video</a>
+            <a href="#"><img src="./images/images/photo.png" alt="video-img">Photo/Video</a>
+            <a href="#"><img src="./images/images/feeling.png" alt="video-img">Feeling/ Activity</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="post-container">
+        <div class="user-profile">
+          <img src="./images/images/profile-pic.png" alt="profile-pic">
+          <div>
+            <p>John</p>
+            <span>June 24, 2021</span>
+          </div>
+        </div>
+        <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam delectus temporibus
+          doloribus, reiciendis doloremque explicabo!</p>
+        <img src="./images/images/feed-image-1.png" alt="feed-post-1" class="post-img">
+        <div class="post-row">
+          <div class="activity-icon">
+            <div><img src="./images/images/like-blue.png" alt="like-button">120</div>
+            <div><img src="./images/images/comments.png" alt="comment-button">90</div>
+            <div><img src="./images/images/share.png" alt="share-button">120</div>
+          </div>
+
+          <div class="post-profile-icon">
+            <img src="./images/images/profile-pic.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="post-container">
+        <div class="user-profile">
+          <img src="./images/images/profile-pic.png" alt="profile-pic">
+          <div>
+            <p>John</p>
+            <span>June 24, 2021</span>
+          </div>
+        </div>
+        <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam delectus temporibus
+          doloribus, reiciendis doloremque explicabo!</p>
+        <img src="./images/images/feed-image-2.png" alt="feed-post-1" class="post-img">
+        <div class="post-row">
+          <div class="activity-icon">
+            <div><img src="./images/images/like-blue.png" alt="like-button">120</div>
+            <div><img src="./images/images/comments.png" alt="comment-button">90</div>
+            <div><img src="./images/images/share.png" alt="share-button">120</div>
+          </div>
+
+          <div class="post-profile-icon">
+            <img src="./images/images/profile-pic.png" alt="">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="post-container">
+        <div class="user-profile">
+          <img src="./images/images/profile-pic.png" alt="profile-pic">
+          <div>
+            <p>John</p>
+            <span>June 24, 2021</span>
+          </div>
+        </div>
+        <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam delectus temporibus
+          doloribus, reiciendis doloremque explicabo!</p>
+        <img src="./images/images/feed-image-3.png" alt="feed-post-1" class="post-img">
+        <div class="post-row">
+          <div class="activity-icon">
+            <div><img src="./images/images/like-blue.png" alt="like-button">120</div>
+            <div><img src="./images/images/comments.png" alt="comment-button">90</div>
+            <div><img src="./images/images/share.png" alt="share-button">120</div>
+          </div>
+
+          <div class="post-profile-icon">
+            <img src="./images/images/profile-pic.png" alt="">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="post-container">
+        <div class="user-profile">
+          <img src="./images/images/profile-pic.png" alt="profile-pic">
+          <div>
+            <p>John</p>
+            <span>June 24, 2021</span>
+          </div>
+        </div>
+        <p class="post-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam delectus temporibus
+          doloribus, reiciendis doloremque explicabo!</p>
+        <img src="./images/images/feed-image-4.png" alt="feed-post-1" class="post-img">
+        <div class="post-row">
+          <div class="activity-icon">
+            <div><img src="./images/images/like-blue.png" alt="like-button">120</div>
+            <div><img src="./images/images/comments.png" alt="comment-button">90</div>
+            <div><img src="./images/images/share.png" alt="share-button">120</div>
+          </div>
+
+          <div class="post-profile-icon">
+            <img src="./images/images/profile-pic.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <button type="button" class="load-more-btn">Load More</button>
+    </div>
+    <!--------- Right Side Bar ------------->
+    <div class="right-side-bar">
+      <div class="sidebar-title">
+        <h4>Events</h4>
+        <a href="#">See All</a>
+      </div>
+
+      <div class="event">
+        <div class="left-event">
+          <h3>18</h3>
+          <span>March</span>
+        </div>
+        <div class="right-event">
+          <h4>Social Media</h4>
+          <p>Willson Tech Park</p>
+          <a href="#">More Info</a>
+        </div>
+      </div>
+
+      <div class="event">
+        <div class="left-event">
+          <h3>22</h3>
+          <span>June</span>
+        </div>
+        <div class="right-event">
+          <h4>Mobile Marketing</h4>
+          <p>Willson Tech Park</p>
+          <a href="#">More Info</a>
+        </div>
+      </div>
+
+      <div class="sidebar-title">
+        <h4>Advertisements</h4>
+        <a href="#">Close</a>
+      </div>
+
+      <img src="./images/images/advertisement.png" alt="adv-image" class="sidebar-ads" />
+
+      <div class="sidebar-title">
+        <h4>Conversation</h4>
+        <a href="#">Hide Chat</a>
+      </div>
+
+      <div class="online-list">
+        <div class="online">
+          <img src="./images/images/member-1.png" alt="image-of-person" />
+        </div>
+        <p>Alison</p>
+      </div>
+
+      <div class="online-list">
+        <div class="online">
+          <img src="./images/images/member-2.png" alt="image-of-person" />
+        </div>
+        <p>Jackson</p>
+      </div>
+
+      <div class="online-list">
+        <div class="online">
+          <img src="./images/images/member-3.png" alt="image-of-person" />
+        </div>
+        <p>Samona</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="fotter">
+    <p>&copy Copyright 2021 - Galahad</p>
+  </div>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
